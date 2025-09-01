@@ -1,0 +1,44 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Connected community background">
+  <defs>
+    <!-- soft gradient background -->
+    <linearGradient id="light-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9fcff"></stop>
+      <stop offset="100%" stop-color="#f2fff9"></stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- background fill -->
+  <rect width="1600" height="900" fill="url(#light-gradient)"></rect>
+
+  <!-- subtle grid / connection lines -->
+  <g stroke="#23A09433" stroke-width="2">
+    <line x1="200" y1="150" x2="600" y2="300"></line>
+    <line x1="600" y1="300" x2="1000" y2="180"></line>
+    <line x1="1000" y1="180" x2="1350" y2="350"></line>
+    <line x1="200" y1="150" x2="400" y2="500"></line>
+    <line x1="600" y1="300" x2="800" y2="550"></line>
+    <line x1="1000" y1="180" x2="1200" y2="500"></line>
+    <line x1="1350" y1="350" x2="1100" y2="700"></line>
+    <line x1="800" y1="550" x2="400" y2="500"></line>
+    <line x1="800" y1="550" x2="1100" y2="700"></line>
+  </g>
+
+  <!-- connection nodes (50% transparent) -->
+  <g fill="#0E5AA7" opacity="0.5">
+    <circle cx="200" cy="150" r="16"></circle>
+    <circle cx="600" cy="300" r="14"></circle>
+    <circle cx="1000" cy="180" r="14"></circle>
+    <circle cx="1350" cy="350" r="18"></circle>
+    <circle cx="400" cy="500" r="12"></circle>
+    <circle cx="1200" cy="500" r="12"></circle>
+    <circle cx="1100" cy="700" r="16"></circle>
+  </g>
+
+  <!-- highlight hub node (green, also 50% transparent) -->
+  <circle cx="800" cy="550" r="20" fill="#23A094" opacity="0.5"></circle>
+
+  <!-- soft decorative circles for depth -->
+  <circle cx="300" cy="700" r="150" fill="#0E5AA711"></circle>
+  <circle cx="1400" cy="200" r="200" fill="#23A09411"></circle>
+</svg>
