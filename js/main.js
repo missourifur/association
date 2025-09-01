@@ -1,0 +1,1 @@
+(function(){const n=document.querySelector("nav"),e=document.querySelector(".nav-toggle");e&&n&&e.addEventListener("click",()=>{const t=n.getAttribute("data-open")==="true";n.setAttribute("data-open",String(!t)),e.setAttribute("aria-expanded",String(!t))})})();
