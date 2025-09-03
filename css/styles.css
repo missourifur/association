@@ -46,6 +46,14 @@ nav a[aria-current="page"]{background:var(--surface);border:1px solid var(--bord
 .card{grid-column:span 4;background:var(--surface);border:1px solid var(--border);border-radius:.9rem;padding:1rem}
 .card h3{margin-bottom:.25rem}
 .card p{color:var(--muted)}
+.card-img {
+  width: 100%;
+  height: 180px;             /* keep cards even */
+  object-fit: cover;         /* crop images nicely */
+  border-radius: .5rem;      /* match card style */
+  margin-bottom: .75rem;     /* space between image and title */
+}
+
 @media (max-width:960px){.card{grid-column:span 6}}@media (max-width:640px){.card{grid-column:span 12}}
 .section{padding:clamp(1.5rem,4vw,3rem) 0}
 .section h2{font-size:clamp(1.35rem,3vw,2rem);margin-bottom:.4rem}
